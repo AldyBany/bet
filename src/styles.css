@@ -1,0 +1,201 @@
+li {
+  list-style: none;
+}
+
+.tel {
+  margin-right: 10px;
+}
+
+.menu-icon {
+  margin-right: 50px;
+}
+
+.services {
+  background-color: #eee;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+.slip {
+  display: none;
+}
+.grid-container {
+  display: grid;
+  align-items: center;
+}
+
+.item1 {
+  grid-column: 1/6;
+}
+.item2 {
+  grid-column: 7/8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item2 li {
+  background-color: #8cd790;
+  height: 35px;
+  width: 180px;
+  padding: 5px 18px;
+  display: flex;
+  border-radius: 4px;
+}
+.item2 .draw {
+  width: 120px;
+}
+
+.left-team .team-name {
+  margin-right: 60px;
+}
+.teams {
+  font-size: 14px;
+}
+.competition-name {
+  font-size: 11px;
+}
+.services {
+  background-color: #555;
+  height: 60px;
+}
+
+.services a {
+  color: #fff;
+}
+
+.sports {
+  background: white;
+}
+
+.sports p {
+  color: #555;
+  font-weight: 500;
+}
+.sports-icons {
+  width: 30px;
+}
+
+.select-options {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 3px;
+  color: #222;
+  border: 1px solid #ddd;
+  outline: none;
+}
+.team-name {
+  margin-right: 35px;
+}
+
+.fa-chart-pie {
+  color: white;
+}
+.options-link {
+  padding: 4px 10px;
+  background-color: #555;
+  /* padding: 0 8px; */
+  border-radius: 3px;
+}
+.options-link span {
+  font-size: 13px;
+  color: white;
+}
+
+.more-bets {
+  font-size: 12px;
+  color: white;
+}
+
+.mr-1 {
+  margin-right: 7px;
+}
+
+.item2 li a {
+  color: #222;
+}
+.item3 {
+  grid-column: 8;
+}
+
+@media (max-width: 768px) {
+  .item1 {
+    grid-column: 1;
+  }
+  .item2 {
+    gricolumn: 1/3;
+    grid-row: 2;
+  }
+}
+
+.ads-container {
+  width: 100%;
+  height: 250px;
+  background: url("https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 778px) {
+  .slip {
+    display: block;
+  }
+  .side {
+    display: none;
+  }
+  .menu-icon {
+    margin-right: 0;
+  }
+  .left-content p {
+    font-size: 0.8em;
+  }
+  .left-content h2 {
+    margin: 0;
+    font-size: 1.6em;
+  }
+  .btn {
+    padding: 0.5em 0.7em;
+    font-size: 1.1em;
+  }
+  .btn .mid {
+    margin: 0;
+  }
+
+  .middle-content {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  body {
+    font-size: 14px;
+  }
+  .btn .mid {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  body {
+    font-size: 14px;
+  }
+
+  .btn .mid {
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 368px) {
+  body {
+    font-size: 13px;
+  }
+  nav {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    align-items: baseline !important;
+  }
+}
